@@ -61,11 +61,10 @@ def roc_curves(data):
 
 def main():
     # Connecting to the reddit script app through PRAW API
-    reddit = praw.Reddit(client_id='Nuhb2V_ONfbRAg', \
-                         client_secret='ao8oVLq-ZEz1a-9leqg1FqGdCIg', \
-                         user_agent='redditApp1', \
-                         username='ketand2017', \
-                         password='passwordfis'
+    reddit = praw.Reddit(client_id='6_SaZk0ZwTKRuA', \
+                         client_secret='sTU1LqOHU-uUBP3FERDcWG0r7WU', \
+                         user_agent='Reddit_Classifier', \
+                         username='omkarvaidya13', \
                          )
 
     # The subreddits from which data is collected
